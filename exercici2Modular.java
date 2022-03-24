@@ -26,6 +26,7 @@ public class exercici2Modular {
         int[] myArray = new int[N_NUMEROS];
 
         // Cridar funció llegirArray2
+        System.out.println("Introdueix " + N_NUMEROS + " valors: ");
         int llegir;
         llegir = Teclat.llegirArray2(myArray, N_NUMEROS);
         System.out.println("Impressio: " + llegir);

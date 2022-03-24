@@ -28,6 +28,7 @@ public class exercici3Modular {
         double[] myArray = new double[NUM_ELEMENTS];
 
         /* cridar a llegirArray */
+        System.out.println("Introdueix " + NUM_ELEMENTS + " numeros: ");
         Teclat.llegirArrayTeclat3(myArray, NUM_ELEMENTS);
 
         /* cridar a buscarMinim */

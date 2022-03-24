@@ -18,10 +18,12 @@ public class exercici1Modular {
         int[] myArray = new int[LLARGADA];
 
         // Cridar funcio llegirArrayTeclat
+        System.out.println("Introdueix " + LLARGADA + " valors: ");
         Teclat.llegirArrayTeclat(myArray, LLARGADA);
 
         // Cridar funcio llegirNumeroABuscar
         // busca el número manualment, no per teclat (Scanner)
+        System.out.println("Introdueix el numero a buscar: ");
         int numeroBuscat;
         numeroBuscat = Teclat.llegirNumeroABuscar();
 
