@@ -7,12 +7,15 @@ public class Teclat {
         for (int i = 0; i < M; i++) {
             vector[i] = teclat.nextInt();
         }
+        teclat.close();
     }
 
     /* imprimir missatge passat per teclat */
     public static void imprimirMissatge() {
         Scanner teclat = new Scanner(System.in);
         System.out.println(teclat.next());
+        int numero = teclat.nextInt();
+        teclat.close();
     }
 
     /*
@@ -24,6 +27,7 @@ public class Teclat {
         for (int i = 0; i < M && teclat.hasNext(); i++) {
             teclat.nextInt();
         }
+        teclat.close();
     }
 
     /*
@@ -36,6 +40,7 @@ public class Teclat {
     public static int llegirNumeroABuscar() {
         Scanner teclat = new Scanner(System.in);
         int numero = teclat.nextInt();
+        teclat.close();
         return numero;
     }
 
@@ -61,6 +66,7 @@ public class Teclat {
             if (vector[i] == -1) {
                 return numero - 1;
             }
+            teclat.close();
         }
         return numero;
     }
@@ -79,5 +85,7 @@ public class Teclat {
         for (int i = 0; i < M; i++) {
             vector[i] = teclat.nextDouble();
         }
+        teclat.close();
     }
+
 }

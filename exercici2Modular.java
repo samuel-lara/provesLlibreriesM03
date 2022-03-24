@@ -43,5 +43,4 @@ public class exercici2Modular {
         // ImprimirMissatgeFinal
         Pantalla.imprimirMissatgeFinal(coincidencia);
     }
-
 }
